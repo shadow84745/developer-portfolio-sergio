@@ -14,6 +14,7 @@ import { useEffect } from "react";
 import blogPosts from "./content/blogPosts";
 import ContactForm from "./components/ContactForm";
 import BlogPost from "./components/BlogPost";
+import sergioCV from "../public/CV-sergio-en-2023-4.pdf"
 
 function App() {
   const controls = useAnimation();
@@ -89,6 +90,11 @@ function App() {
             </motion.div>
           ))}
         </motion.div>
+        <div id="blog">
+          <a className="cyber-scourge" href="./CV-sergio-en-2023-4.pdf" download={sergioCV}>
+            Check My CV To See All My Skills
+          </a>
+        </div>
       </section>
       <section id="blog">
         <Heading firstWord="My" secondWord="Participation" />

@@ -604,9 +604,17 @@ form > input[type="submit"]:hover {
   .hero-typewriter {
     font-size: 25px;
   }
+
+  .button-curriculum{
+    margin: 20px 65px;
+  }
 }
 
 .contact-option{
   color: #c70a0a;
   margin: 10px;
+}
+
+.button-curriculum{
+  text-align: center;
 }

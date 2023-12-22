@@ -6,7 +6,7 @@ const projects = [
       "A clone of booking.com which is built using Nextjs 14 and Oxylabs webscraping API to scrape data from the official booking.com website and show as results of our queries",
     stack: ["React Native", "Expo", "Android", "Firebase"],
     sourceCode: "https://github.com/shadow84745/criserSmartApp",
-    img: "/bookingcom.jpg",
+    img: "/crisersmart.png",
     preview: "#",
   },
   {
