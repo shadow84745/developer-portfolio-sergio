@@ -605,3 +605,8 @@ form > input[type="submit"]:hover {
     font-size: 25px;
   }
 }
+
+.contact-option{
+  color: #c70a0a;
+  margin: 10px;
+}

@@ -10,7 +10,7 @@ const ContactForm = () => {
         <h1>Let&apos;s talk about everything!</h1>
         <p>
           Don&apos;t like forms? Send me an{" "}
-          <a href="mailto:randiltharusha72@gmail.com">email</a>. 👋
+          <a href="mailto:sergio.enrique.segp@gmail.com">email</a>. 👋
           <br />
           <br />
           <h3>Or find me on:</h3>
@@ -25,37 +25,35 @@ const ContactForm = () => {
         <div>
           <p className="contact-links">
             <MdEmail />
-            randiltharusha72@gmail.com
+            sergio.enrique.segp@gmail.com
           </p>
           <br />
           <p className="contact-links">
             <FaPhoneAlt />
-            +94 78 134 7983
+            +57 318 475 6135
           </p>
           <br />
           <p className="contact-links">
             <IoLocation />
-            Sri Lanka
+            Colombia
           </p>
           <br />
         </div>
       </div>
       <div className="contact-form">
         <form name="contact" netlify>
-          <input
-            type="text"
-            name="senderName"
-            placeholder="Your Name"
-            required
-          />
-          <input type="text" name="senderEmail" placeholder="Email" required />
-          <input type="text" name="subject" placeholder="Subject" required />
-          <textarea
-            placeholder="Your Message"
-            name="message"
-            required
-          ></textarea>
-          <input type="submit" value="Send" />
+        <a href="mailto:sergio.enrique.segp@gmail.com" className="contact-option">
+            <h1>
+              <MdEmail />
+              &nbsp;SEND ME AN EMAIL
+            </h1>
+          </a>
+          <a href="tel:+573184756135" className="contact-option">
+            <h1>
+              <FaPhoneAlt />
+              &nbsp;CALL ME
+            </h1>
+          </a>
         </form>
       </div>
     </div>

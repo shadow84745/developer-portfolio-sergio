@@ -53,7 +53,7 @@ function App() {
       <div className="hr"></div>
 
       <section id="projects">
-        <Heading firstWord="My" secondWord="Projects" />
+        <Heading firstWord="MyOwn" secondWord="Projects" />
         <motion.div
           className="project-map"
           ref={ref}
@@ -91,7 +91,7 @@ function App() {
         </motion.div>
       </section>
       <section id="blog">
-        <Heading firstWord="My" secondWord="Blog" />
+        <Heading firstWord="My" secondWord="Participation" />
         <div className="posts">
           {blogPosts.map((post, index) => (
             <BlogPost
@@ -103,8 +103,8 @@ function App() {
             />
           ))}
         </div>
-        <a className="cyber-scourge" href="https://blog.randiltharusha.me">
-          View More Posts
+        <a className="cyber-scourge" href="#contact">
+          If You Want To See More Of My Job, Please Contact Me
         </a>
       </section>
       <section id="contact">
